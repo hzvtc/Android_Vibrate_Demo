@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/info"
+        android:id="@+id/info" />
+
+    <ToggleButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="New ToggleButton"
+        android:id="@+id/shortTimeVibrate"
+        android:layout_below="@+id/info"
+        android:checked="false" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/shortTimeVibrateInfo"
+        android:id="@+id/shortTimeVibrateInfo"
+        android:layout_toRightOf="@+id/shortTimeVibrate"
+        android:layout_alignTop="@+id/shortTimeVibrate"
+        android:layout_alignBottom="@+id/shortTimeVibrate"
+        android:layout_marginLeft="10dp"
+        android:gravity="center"/>
+
+    <ToggleButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="New ToggleButton"
+        android:id="@+id/longTimeVibrate"
+        android:layout_below="@+id/shortTimeVibrate"
+        android:checked="false" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/longTimeVibrateInfo"
+        android:id="@+id/longTimeVibrateInfo"
+        android:layout_alignLeft="@+id/shortTimeVibrateInfo"
+        android:layout_below="@+id/shortTimeVibrate"
+        android:layout_alignBottom="@+id/longTimeVibrate"
+        android:gravity="center"/>
+
+    <ToggleButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="New ToggleButton"
+        android:id="@+id/rhythmVibrate"
+        android:layout_below="@+id/longTimeVibrate"
+        android:checked="false" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/rhythmVibrateInfo"
+        android:id="@+id/rhythmVibrateInfo"
+        android:layout_alignLeft="@+id/longTimeVibrateInfo"
+        android:layout_below="@+id/longTimeVibrate"
+        android:layout_alignBottom="@+id/rhythmVibrate"
+        android:gravity="center"/>
+</RelativeLayout>

@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Android_Vibrate_Demo</string>
+    <string name="info">震动演示</string>
+    <string name="shortTimeVibrateInfo">短时间震动</string>
+    <string name="longTimeVibrateInfo">长时间震动</string>
+    <string name="rhythmVibrateInfo">节奏感震动</string>
+    <string name="vibrate_start">震动中...</string>
+    <string name="vibrate_end">震动结束</string>
+</resources>
